@@ -14,8 +14,8 @@ namespace GestionEmpresa.Codigo
     {
         
         suportRegion region;
-        Clases.Region recipiente;
-        Interfaz.Region vista;
+        clsRegion recipiente;
+        Region vista;
 
         public ctrlRegion (Interfaz.Region vista)
         {
@@ -24,6 +24,8 @@ namespace GestionEmpresa.Codigo
             vista.btnAgregar.Click += new EventHandler(agregar);
             vista.btnEliminar.Click += new EventHandler(eliminar);
             vista.btnModificar.Click += new EventHandler(modificar);
+            region = new suportRegion();
+            recipiente = new Clases.clsRegion();
         }
 
         private void cargarData(object sender, EventArgs e)

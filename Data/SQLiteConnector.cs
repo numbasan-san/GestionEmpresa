@@ -12,7 +12,7 @@ namespace GestionEmpresa.Data
         public static SQLiteConnection CreateConnection()
         {
             SQLiteConnection sqliteConn;
-            sqliteConn = new SQLiteConnection("Data Source = Data.db; Version = 3; New = True; Compress = True;");
+            sqliteConn = new SQLiteConnection("Data Source = DataPrueba.db; Version = 3; New = True; Compress = True;");
             try
             {
                 sqliteConn.Open();

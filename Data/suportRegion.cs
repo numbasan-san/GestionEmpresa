@@ -16,11 +16,11 @@ namespace GestionEmpresa.Data
             SQLiteConnector.CreateTable();
         }
 
-        public List<Region> verRegistro()
+        public List<clsRegion> verRegistro()
         {
 
             SQLiteConnector.CreateTable();
-            List<Region> Regiones = new List<Region>();
+            List<clsRegion> Regiones = new List<clsRegion>();
             SQLiteConnection conn = SQLiteConnector.CreateConnection();
             SQLiteCommand command;
             SQLiteDataReader reader;
@@ -32,7 +32,7 @@ namespace GestionEmpresa.Data
                 reader = command.ExecuteReader();
                 while (reader.Read())
                 {
-                    Regiones.Add(new Region(
+                    Regiones.Add(new clsRegion(
                     reader.GetInt32(0),
                     reader.GetString(1),
                     reader.GetString(2)
@@ -56,7 +56,7 @@ namespace GestionEmpresa.Data
             return ds;
         }
 
-        public void agregar(Region region)
+        public void agregar(clsRegion region)
         {
             SQLiteConnection conn = SQLiteConnector.CreateConnection();
             SQLiteCommand sqliteCommand;
@@ -69,7 +69,7 @@ namespace GestionEmpresa.Data
             conn.Close();
         }
 
-        public void modificar(Region region)
+        public void modificar(clsRegion region)
         {
             SQLiteConnection conn = SQLiteConnector.CreateConnection();
             SQLiteCommand sqliteCommand;
@@ -82,7 +82,7 @@ namespace GestionEmpresa.Data
             conn.Close();
         }
 
-        public void eliminar(Region region)
+        public void eliminar(clsRegion region)
         {
             SQLiteConnection conn = SQLiteConnector.CreateConnection();
             SQLiteCommand sqliteCommand;

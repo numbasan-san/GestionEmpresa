@@ -16,11 +16,11 @@ namespace GestionEmpresa.Data
             SQLiteConnector.CreateTable();
         }
 
-        public List<Departamento> verRegistro()
+        public List<clsDepartamento> verRegistro()
         {
 
             SQLiteConnector.CreateTable();
-            List<Departamento> Departamentos = new List<Departamento>();
+            List<clsDepartamento> Departamentos = new List<clsDepartamento>();
             SQLiteConnection conn = SQLiteConnector.CreateConnection();
             SQLiteCommand command;
             SQLiteDataReader reader;
@@ -32,7 +32,7 @@ namespace GestionEmpresa.Data
                 reader = command.ExecuteReader();
                 while (reader.Read())
                 {
-                    Departamentos.Add(new Departamento(
+                    Departamentos.Add(new clsDepartamento(
                     reader.GetInt32(0),
                     reader.GetString(1),
                     reader.GetInt32(2),
@@ -56,7 +56,7 @@ namespace GestionEmpresa.Data
             return ds;
         }
 
-        public void agregar(Departamento depart)
+        public void agregar(clsDepartamento depart)
         {
             SQLiteConnection conn = SQLiteConnector.CreateConnection();
             SQLiteCommand sqliteCommand;
@@ -70,7 +70,7 @@ namespace GestionEmpresa.Data
             conn.Close();
         }
 
-        public void modificar(Departamento depart)
+        public void modificar(clsDepartamento depart)
         {
             SQLiteConnection conn = SQLiteConnector.CreateConnection();
             SQLiteCommand sqliteCommand;
@@ -84,7 +84,7 @@ namespace GestionEmpresa.Data
             conn.Close();
         }
 
-        public void eliminar(Departamento depart)
+        public void eliminar(clsDepartamento depart)
         {
             SQLiteConnection conn = SQLiteConnector.CreateConnection();
             SQLiteCommand sqliteCommand;

@@ -16,11 +16,11 @@ namespace GestionEmpresa.Data
             SQLiteConnector.CreateTable();
         }
 
-        public List<Empleado> verRegistro()
+        public List<clsEmpleado> verRegistro()
         {
 
             SQLiteConnector.CreateTable();
-            List<Empleado> Empleados = new List<Empleado>();
+            List<clsEmpleado> Empleados = new List<clsEmpleado>();
             SQLiteConnection conn = SQLiteConnector.CreateConnection();
             SQLiteCommand command;
             SQLiteDataReader reader;
@@ -32,7 +32,7 @@ namespace GestionEmpresa.Data
                 reader = command.ExecuteReader();
                 while (reader.Read())
                 {
-                    Empleados.Add(new Empleado(
+                    Empleados.Add(new clsEmpleado(
                     reader.GetInt32(0),
                     reader.GetString(1),
                     reader.GetString(2),
@@ -57,7 +57,7 @@ namespace GestionEmpresa.Data
             return ds;
         }
 
-        public void agregar(Empleado empleado)
+        public void agregar(clsEmpleado empleado)
         {
             SQLiteConnection conn = SQLiteConnector.CreateConnection();
             SQLiteCommand sqliteCommand;
@@ -72,7 +72,7 @@ namespace GestionEmpresa.Data
             conn.Close();
         }
 
-        public void modificar(Empleado empleado)
+        public void modificar(clsEmpleado empleado)
         {
             SQLiteConnection conn = SQLiteConnector.CreateConnection();
             SQLiteCommand sqliteCommand;
@@ -87,7 +87,7 @@ namespace GestionEmpresa.Data
             conn.Close();
         }
 
-        public void eliminar(Empleado empleado)
+        public void eliminar(clsEmpleado empleado)
         {
             SQLiteConnection conn = SQLiteConnector.CreateConnection();
             SQLiteCommand sqliteCommand;
