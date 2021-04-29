@@ -34,18 +34,18 @@ namespace GestionEmpresa.Interfaz
             this.label2 = new System.Windows.Forms.Label();
             this.txtPaisID = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.txCodigo = new System.Windows.Forms.TextBox();
+            this.txtIdPais = new System.Windows.Forms.TextBox();
+            this.txtCodigo = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtNoContacto = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnModificar = new System.Windows.Forms.Button();
-            this.btnEliminar = new System.Windows.Forms.Button();
-            this.btnAgregar = new System.Windows.Forms.Button();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnModificar = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnAgregar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -99,23 +99,23 @@ namespace GestionEmpresa.Interfaz
             this.label4.TabIndex = 4;
             this.label4.Text = "No. Contacto:";
             // 
-            // textBox4
+            // txtIdPais
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(148, 254);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(164, 36);
-            this.textBox4.TabIndex = 8;
+            this.txtIdPais.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIdPais.Location = new System.Drawing.Point(148, 254);
+            this.txtIdPais.Multiline = true;
+            this.txtIdPais.Name = "txtIdPais";
+            this.txtIdPais.Size = new System.Drawing.Size(164, 36);
+            this.txtIdPais.TabIndex = 8;
             // 
-            // txCodigo
+            // txtCodigo
             // 
-            this.txCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txCodigo.Location = new System.Drawing.Point(148, 74);
-            this.txCodigo.Multiline = true;
-            this.txCodigo.Name = "txCodigo";
-            this.txCodigo.Size = new System.Drawing.Size(164, 36);
-            this.txCodigo.TabIndex = 9;
+            this.txtCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCodigo.Location = new System.Drawing.Point(148, 74);
+            this.txtCodigo.Multiline = true;
+            this.txtCodigo.Name = "txtCodigo";
+            this.txtCodigo.Size = new System.Drawing.Size(164, 36);
+            this.txtCodigo.TabIndex = 9;
             // 
             // txtNombre
             // 
@@ -150,33 +150,6 @@ namespace GestionEmpresa.Interfaz
             this.dataGridView1.Size = new System.Drawing.Size(553, 300);
             this.dataGridView1.TabIndex = 13;
             // 
-            // btnModificar
-            // 
-            this.btnModificar.Location = new System.Drawing.Point(400, 221);
-            this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(125, 39);
-            this.btnModificar.TabIndex = 31;
-            this.btnModificar.Text = "Modificar";
-            this.btnModificar.UseVisualStyleBackColor = true;
-            // 
-            // btnEliminar
-            // 
-            this.btnEliminar.Location = new System.Drawing.Point(400, 157);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(125, 39);
-            this.btnEliminar.TabIndex = 30;
-            this.btnEliminar.Text = "Eliminar";
-            this.btnEliminar.UseVisualStyleBackColor = true;
-            // 
-            // btnAgregar
-            // 
-            this.btnAgregar.Location = new System.Drawing.Point(400, 91);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(125, 39);
-            this.btnAgregar.TabIndex = 29;
-            this.btnAgregar.Text = "Agregar";
-            this.btnAgregar.UseVisualStyleBackColor = true;
-            // 
             // Column1
             // 
             this.Column1.HeaderText = "Código";
@@ -205,6 +178,33 @@ namespace GestionEmpresa.Interfaz
             this.Column4.Name = "Column4";
             this.Column4.Width = 125;
             // 
+            // btnModificar
+            // 
+            this.btnModificar.Location = new System.Drawing.Point(400, 221);
+            this.btnModificar.Name = "btnModificar";
+            this.btnModificar.Size = new System.Drawing.Size(125, 39);
+            this.btnModificar.TabIndex = 31;
+            this.btnModificar.Text = "Modificar";
+            this.btnModificar.UseVisualStyleBackColor = true;
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.Location = new System.Drawing.Point(400, 157);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(125, 39);
+            this.btnEliminar.TabIndex = 30;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            // 
+            // btnAgregar
+            // 
+            this.btnAgregar.Location = new System.Drawing.Point(400, 91);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(125, 39);
+            this.btnAgregar.TabIndex = 29;
+            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.UseVisualStyleBackColor = true;
+            // 
             // Departamento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -216,8 +216,8 @@ namespace GestionEmpresa.Interfaz
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.txtNoContacto);
             this.Controls.Add(this.txtNombre);
-            this.Controls.Add(this.txCodigo);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txtCodigo);
+            this.Controls.Add(this.txtIdPais);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtPaisID);
             this.Controls.Add(this.label2);
@@ -238,17 +238,17 @@ namespace GestionEmpresa.Interfaz
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label txtPaisID;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox txCodigo;
-        private System.Windows.Forms.TextBox txtNombre;
-        private System.Windows.Forms.TextBox txtNoContacto;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button btnModificar;
-        private System.Windows.Forms.Button btnEliminar;
-        private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        public System.Windows.Forms.Button btnModificar;
+        public System.Windows.Forms.Button btnEliminar;
+        public System.Windows.Forms.Button btnAgregar;
+        public System.Windows.Forms.TextBox txtIdPais;
+        public System.Windows.Forms.DataGridView dataGridView1;
+        public System.Windows.Forms.TextBox txtNombre;
+        public System.Windows.Forms.TextBox txtNoContacto;
+        public System.Windows.Forms.TextBox txtCodigo;
     }
 }
