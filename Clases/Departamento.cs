@@ -9,16 +9,16 @@ namespace GestionEmpresa.Clases
     class Departamento
     {
 
+        public int codigo { get; set; }
         public string nombre { get; set; }
-        public string paisId { get; set; }
-        public string codigo { get; set; }
-        public string noContact { get; set; }
+        public int paisId { get; set; }
+        public int noContact { get; set; }
 
-        public Departamento(string nombre, string paisId, string codigo, string noContact)
+        public Departamento(int codigo, string nombre, int paisId, int noContact)
         {
+            this.codigo = codigo;
             this.nombre = nombre;
             this.paisId = paisId;
-            this.codigo = codigo;
             this.noContact = noContact;
         }
 

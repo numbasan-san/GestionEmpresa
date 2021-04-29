@@ -9,19 +9,19 @@ namespace GestionEmpresa.Clases
     class Empleado
     {
 
+        public int id { get; set; }
         public string nombre { get; set; }
         public string apellido { get; set; }
-        public string departId { get; set; }
-        public string empleo { get; set; }
-        public string email { get; set; }
+        public int departId { get; set; }
+        public string cargo { get; set; }
 
-        public Empleado (string nombre, string apellido, string departId, string empleo, string email)
+        public Empleado (int id, string nombre, string apellido, int departId,  string cargo )
         {
+            this.id = id;
             this.nombre = nombre;
             this.apellido = apellido;
             this.departId = departId;
-            this.empleo = empleo;
-            this.email = email;
+            this.cargo = cargo;
         }
 
         public Empleado(){}

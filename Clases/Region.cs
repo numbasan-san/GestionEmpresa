@@ -8,15 +8,15 @@ namespace GestionEmpresa.Clases
 {
     class Region
     {
+        public int codigo { get; set; }
         public string continente { get; set; }
         public string pais { get; set; }
-        public string codigo { get; set; }
 
-        public Region(string continente, string pais, string codigo)
+        public Region(int codigo, string continente, string pais)
         {
-            this.continente = continente;
-            this.pais = pais;
             this.codigo = codigo;
+            this.continente = continente;
+            this.pais = pais;            
         }
 
         public Region() { }
