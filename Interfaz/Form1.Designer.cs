@@ -37,6 +37,7 @@ namespace GestionEmpresa
             // 
             // label2
             // 
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(90, 103);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(46, 17);
@@ -45,6 +46,7 @@ namespace GestionEmpresa
             // 
             // BTN_Region
             // 
+            this.BTN_Region.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTN_Region.Location = new System.Drawing.Point(187, 131);
             this.BTN_Region.Name = "BTN_Region";
             this.BTN_Region.Size = new System.Drawing.Size(137, 48);
@@ -55,6 +57,7 @@ namespace GestionEmpresa
             // 
             // BTN_Departamento
             // 
+            this.BTN_Departamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTN_Departamento.Location = new System.Drawing.Point(393, 131);
             this.BTN_Departamento.Name = "BTN_Departamento";
             this.BTN_Departamento.Size = new System.Drawing.Size(137, 48);
@@ -65,6 +68,7 @@ namespace GestionEmpresa
             // 
             // BTN_Empleado
             // 
+            this.BTN_Empleado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTN_Empleado.Location = new System.Drawing.Point(576, 131);
             this.BTN_Empleado.Name = "BTN_Empleado";
             this.BTN_Empleado.Size = new System.Drawing.Size(137, 48);
@@ -75,7 +79,7 @@ namespace GestionEmpresa
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(927, 575);
+            this.ClientSize = new System.Drawing.Size(915, 252);
             this.Controls.Add(this.BTN_Empleado);
             this.Controls.Add(this.BTN_Departamento);
             this.Controls.Add(this.BTN_Region);

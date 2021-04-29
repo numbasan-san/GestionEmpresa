@@ -205,16 +205,16 @@ namespace GestionEmpresa.Interfaz
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtCodigo;
-        private System.Windows.Forms.TextBox txtContinente;
-        private System.Windows.Forms.TextBox txtPais;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button btnModificar;
-        private System.Windows.Forms.Button btnEliminar;
-        private System.Windows.Forms.Button btnAgregar;
+        public System.Windows.Forms.DataGridView dataGridView1;
+        public System.Windows.Forms.Button btnModificar;
+        public System.Windows.Forms.Button btnEliminar;
+        public System.Windows.Forms.Button btnAgregar;
+        public System.Windows.Forms.TextBox txtCodigo;
+        public System.Windows.Forms.TextBox txtContinente;
+        public System.Windows.Forms.TextBox txtPais;
     }
 }
