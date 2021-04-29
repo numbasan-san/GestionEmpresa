@@ -46,6 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\Departamento.cs" />
+    <Compile Include="Clases\Empleado.cs" />
+    <Compile Include="Clases\Region.cs" />
+    <Compile Include="Codigo\ClaseInutil.cs" />
+    <Compile Include="Data\ClaseInutil.cs" />
     <Compile Include="Interfaz\Departamento.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,9 +111,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Codigo\" />
-    <Folder Include="Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
