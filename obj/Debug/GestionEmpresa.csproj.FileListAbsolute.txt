@@ -1,0 +1,13 @@
+C:\Users\LENOVO\Documents\C#Projects\GestionEmpresa\bin\Debug\GestionEmpresa.exe.config
+C:\Users\LENOVO\Documents\C#Projects\GestionEmpresa\bin\Debug\GestionEmpresa.exe
+C:\Users\LENOVO\Documents\C#Projects\GestionEmpresa\bin\Debug\GestionEmpresa.pdb
+C:\Users\LENOVO\Documents\C#Projects\GestionEmpresa\obj\Debug\GestionEmpresa.csprojAssemblyReference.cache
+C:\Users\LENOVO\Documents\C#Projects\GestionEmpresa\obj\Debug\GestionEmpresa.Interfaz.Departamento.resources
+C:\Users\LENOVO\Documents\C#Projects\GestionEmpresa\obj\Debug\GestionEmpresa.Interfaz.Empleado.resources
+C:\Users\LENOVO\Documents\C#Projects\GestionEmpresa\obj\Debug\GestionEmpresa.Form1.resources
+C:\Users\LENOVO\Documents\C#Projects\GestionEmpresa\obj\Debug\GestionEmpresa.Interfaz.Region.resources
+C:\Users\LENOVO\Documents\C#Projects\GestionEmpresa\obj\Debug\GestionEmpresa.Properties.Resources.resources
+C:\Users\LENOVO\Documents\C#Projects\GestionEmpresa\obj\Debug\GestionEmpresa.csproj.GenerateResource.cache
+C:\Users\LENOVO\Documents\C#Projects\GestionEmpresa\obj\Debug\GestionEmpresa.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Documents\C#Projects\GestionEmpresa\obj\Debug\GestionEmpresa.exe
+C:\Users\LENOVO\Documents\C#Projects\GestionEmpresa\obj\Debug\GestionEmpresa.pdb
