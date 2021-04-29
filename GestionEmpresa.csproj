@@ -55,13 +55,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Clases\Departamento.cs" />
-    <Compile Include="Clases\Empleado.cs" />
-    <Compile Include="Clases\Region.cs" />
+    <Compile Include="Clases\clsDepartamento.cs" />
+    <Compile Include="Clases\clsEmpleado.cs" />
+    <Compile Include="Clases\clsRegion.cs" />
     <Compile Include="Codigo\ctrlRegion.cs" />
-    <Compile Include="Codigo\CtlCategoria.cs" />
-    <Compile Include="Codigo\CtlProducto.cs" />
-    <Compile Include="Codigo\CtlVistaProducto.cs" />
     <Compile Include="Data\SQLiteConnector.cs" />
     <Compile Include="Data\suportDepartamento.cs" />
     <Compile Include="Data\suportEmpleado.cs" />
